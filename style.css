@@ -8,6 +8,7 @@
 .container.demo .row {
   background: #021d51;
   border-bottom: 1px solid #000;
+  height: 30vh;
 }
 
 .container.demo .row > div > span {
