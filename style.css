@@ -1,0 +1,6 @@
+.container.demo {
+  background: #054bd1;
+  height: 100vh;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
