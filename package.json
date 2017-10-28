@@ -1,0 +1,12 @@
+{
+  "name": "ninghao-bootstrap-4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/browser-sync start --server --no-notify --files='index.html, *.css, *.js'"
+  },
+  "dependencies": {
+    "browser-sync": "^2.18.13"
+  }
+}
