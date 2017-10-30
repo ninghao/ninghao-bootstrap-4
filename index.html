@@ -16,7 +16,12 @@
 
   <div class="component demo">
 
-    <div class="carousel slide" data-ride="carousel">
+    <div class="carousel slide" id="carousel-demo">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-demo" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-demo" data-slide-to="1"></li>
+        <li data-target="#carousel-demo" data-slide-to="2"></li>
+      </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img class="d-block w-100" src="./img/1.jpg" alt="">
@@ -28,6 +33,12 @@
           <img class="d-block w-100" src="./img/3.jpg" alt="">
         </div>
       </div>
+      <a href="#carousel-demo" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#carousel-demo" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
     </div>
 
   </div>
