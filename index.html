@@ -16,24 +16,26 @@
 
   <div class="component demo">
 
-    <div id="tab-demo" class="row">
-      <div class="col-4">
-        <div class="list-group">
-          <a href="#html-content" class="list-group-item list-group-item-action active">HTML</a>
-          <a href="#css-content" class="list-group-item list-group-item-action">CSS</a>
-          <a href="#javascript-content" class="list-group-item list-group-item-action">JavaScript</a>
-        </div>
-      </div>
-      <div class="col-8">
-        <div class="tab-content">
-          <div class="tab-pane fade show active" id="html-content">hello html.</div>
-          <div class="tab-pane fade" id="css-content">hello css.</div>
-          <div class="tab-pane fade" id="javascript-content">hello javascript.</div>
+    <div id="modal-demo" class="modal fade show">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal</h5>
+            <button class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <p>hello ~</p>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary">取消</button>
+            <button class="btn btn-primary">确认</button>
+          </div>
         </div>
       </div>
     </div>
-
-
+    <button class="btn btn-danger"
+      data-toggle="modal"
+      data-target="#modal-demo">删除</button>
 
   </div>
 
