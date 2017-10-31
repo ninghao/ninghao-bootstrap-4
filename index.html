@@ -16,18 +16,24 @@
 
   <div class="component demo">
 
-    <div class="list-group">
-      <a href="#" class="list-group-item list-group-item-action disabled">HTML</a>
-      <a href="#" class="list-group-item list-group-item-warning">CSS</a>
-      <a href="#"
-        class="list-group-item
-          list-group-item-action
-          d-flex
-          justify-content-between
-          align-items-center">JavaScript
-        <span class="badge badge-primary badge-pill">12</span>
-      </a>
+    <div class="row">
+      <div class="col-4">
+        <div class="list-group">
+          <a data-toggle="list" href="#html-content" class="list-group-item list-group-item-action active">HTML</a>
+          <a data-toggle="list" href="#css-content" class="list-group-item list-group-item-action">CSS</a>
+          <a data-toggle="list" href="#javascript-content" class="list-group-item list-group-item-action">JavaScript</a>
+        </div>
+      </div>
+      <div class="col-8">
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="html-content">hello html.</div>
+          <div class="tab-pane fade" id="css-content">hello css.</div>
+          <div class="tab-pane fade" id="javascript-content">hello javascript.</div>
+        </div>
+      </div>
     </div>
+
+
 
   </div>
 
