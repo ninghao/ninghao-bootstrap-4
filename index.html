@@ -16,9 +16,14 @@
 
   <div class="component demo" style="height: 300vh">
 
-    <label for="email">邮件地址</label>
-    <input id="email" class="form-control" type="text" placeholder="Email">
-    <small class="form-text text-muted">请输入正确的电子邮件地址，接收重要的通知。</small>
+    <div class="input-group">
+      <span class="input-group-addon">@</span>
+      <input class="form-control"
+        type="text" placeholder="输入...">
+      <span class="input-group-btn">
+        <button class="btn btn-primary">Go</button>
+      </span>
+    </div>
 
   </div>
 
